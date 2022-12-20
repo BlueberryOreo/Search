@@ -46,7 +46,7 @@ void create(int n, vector<int> &v, bool manual) {
 }
 
 void getTime(timeb &t) {
-	ftime(&t);
+	ftime(&t); 
 }
 
 void print(const vector<int> &v) {
